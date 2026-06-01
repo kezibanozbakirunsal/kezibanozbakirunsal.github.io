@@ -91,19 +91,17 @@
     .projLinks{display:flex; gap:10px; flex-wrap:wrap}
     footer{margin-top:26px; color:var(--muted); text-align:center}
     .small{font-size:13px}
-
-    /* Make contact links clearly clickable */
     #contact a { text-decoration: underline; text-underline-offset: 3px; }
     .cover{
-   width:100%;
-   height:180px;           
-   object-fit:cover;
-   border-radius:14px;
-   border:1px solid var(--line);
-   margin-bottom:12px;
-   display:block;
-   filter: brightness(.92);
-}
+      width:100%;
+      height:180px;
+      object-fit:cover;
+      border-radius:14px;
+      border:1px solid var(--line);
+      margin-bottom:12px;
+      display:block;
+      filter: brightness(.92);
+    }
   </style>
 </head>
 
@@ -128,7 +126,6 @@
         <p class="about">
           I am a Software Developer focusing on Angular and TypeScript, building practical projects and continuously improving my frontend development skills.
         </p>
-
         <div class="cta">
           <a class="btn primary" href="#projects">View Projects</a>
           <a class="btn" href="https://github.com/kezibanozbakirunsal" target="_blank" rel="noreferrer">GitHub</a>
@@ -149,8 +146,10 @@
           <span class="chip">CSS</span>
           <span class="chip">Git & GitHub</span>
           <span class="chip">GitHub Pages</span>
+          <span class="chip">Python</span>
+          <span class="chip">Flask</span>
+          <span class="chip">Claude AI</span>
         </div>
-
         <div class="secTitle" style="margin-top:18px">
           <h2>Learning</h2>
           <p class="small">Always improving</p>
@@ -171,9 +170,22 @@
 
       <div class="grid">
         <article class="card project">
+          <h3>Career Agent 🤖</h3>
+          <img src="career-agent-cover.svg" alt="Career Agent cover" class="cover" loading="lazy">
+          <p>
+            A Python multi-agent system to track, analyse, and report on job applications — with a Flask REST API and Claude AI integration.
+          </p>
+          <div class="meta">
+            <span>Python</span><span>Flask</span><span>Claude AI</span><span>Multi-Agent</span>
+          </div>
+          <div class="projLinks">
+            <a class="btn" href="https://github.com/kezibanozbakirunsal/career-agent" target="_blank" rel="noreferrer">GitHub</a>
+          </div>
+        </article>
+
+        <article class="card project">
           <h3>Job Application Tracker</h3>
           <img src="job-tracker-cover.jpg" alt="Job Application Tracker cover" class="cover" loading="lazy">
-
           <p>
             An Angular app to track job applications and manage progress in a clear, structured way.
           </p>
@@ -188,9 +200,8 @@
 
         <article class="card project">
           <h3>Frog Tasks 🐸</h3>
+          <img src="frog-tasks-cover.jpg" alt="Frog Tasks cover" class="cover" loading="lazy">
           <p>
-           <img src="frog-tasks-cover.jpg" alt="Frog Tasks cover" class="cover" loading="lazy">
-
             A small Angular practice project focusing on components, routing, and UI basics.
           </p>
           <div class="meta">
@@ -204,9 +215,8 @@
 
         <article class="card project">
           <h3>SEVENDENIZ LIMITED — Website</h3>
+          <img src="sevendeniz-cover.jpg" alt="Sevendeniz Limited website cover" class="cover" loading="lazy">
           <p>
-            <img src="sevendeniz-cover.jpg" alt="Sevendeniz Limited website cover" class="cover" loading="lazy">
-
             A business-style website project for an interior design brand, focused on layout, structure, and presentation.
           </p>
           <div class="meta">
@@ -223,9 +233,8 @@
     <section id="contact">
       <div class="secTitle">
         <h2>Contact</h2>
-        <p class="small">Let’s connect</p>
+        <p class="small">Let's connect</p>
       </div>
-
       <div class="card pad">
         <p class="about" style="margin:0">
           Email: <a href="mailto:kezibanozbakirunsal@gmail.com">kezibanozbakirunsal@gmail.com</a><br>
